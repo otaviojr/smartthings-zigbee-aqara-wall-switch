@@ -33,7 +33,7 @@ import physicalgraph.app.DeviceWrapper
 import physicalgraph.app.exception.UnknownDeviceTypeException
 
 metadata {
-	definition (name: "Zigbee - Aqara Wall Switch", namespace: "otavio.guru", author: "Otávio Ribeiro", filename: "zigbee-aqara-wall-switch", importUrl: "https://raw.githubusercontent.com/markus-li/Hubitat/release/drivers/expanded/zigbee-aqara-wall-switch-expanded.groovy") {
+	definition (name: "Zigbee - Aqara Wall Switch", namespace: "otavio.guru", author: "Otávio Ribeiro", filename: "zigbee-aqara-wall-switch", importUrl: "https://raw.githubusercontent.com/otaviojr/smartthings-zigbee-aqara-wall-switch/main/smartthings-zigbee-aqara-wall-switch.groovy") {
         // BEGIN:getDefaultMetadataCapabilitiesForZigbeeDevices()
         capability "Sensor"
         capability "PresenceSensor"
@@ -132,7 +132,7 @@ metadata {
 // BEGIN:getDeviceInfoFunction()
 String getDeviceInfoByName(infoName) { 
      
-    Map deviceInfo = ['name': 'Zigbee - Aqara Wall Switch', 'namespace': 'otavio.guru', 'author': 'Otávio Ribeiro', 'filename': 'zigbee-aqara-wall-switch', 'importUrl': 'https://raw.githubusercontent.com/markus-li/Hubitat/release/drivers/expanded/zigbee-aqara-wall-switch-expanded.groovy']
+    Map deviceInfo = ['name': 'Zigbee - Aqara Wall Switch', 'namespace': 'otavio.guru', 'author': 'Otávio Ribeiro', 'filename': 'zigbee-aqara-wall-switch', 'importUrl': 'https://raw.githubusercontent.com/otaviojr/smartthings-zigbee-aqara-wall-switch/main/smartthings-zigbee-aqara-wall-switch.groovy']
      
     return(deviceInfo[infoName])
 }
