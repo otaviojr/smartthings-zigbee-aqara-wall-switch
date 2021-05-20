@@ -22,6 +22,7 @@
  *  Version: Smartthings by Otávio Ribeiro <otavio.ribeiro@gmail.com>
  *  At: 05/2021
  *
+ *
  */
 
 // BEGIN:getDefaultImports()
